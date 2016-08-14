@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Демо</title>
+    <link  rel="stylesheet"  href="css/style.css">
   </head>
   <body>
     <header>
       <div class="container">
         <div>
-          <img src="#">
+          <img src="img/Logo.png" width="100" height="50">
         </div>
-        <nav>
+        <nav class="header">
           <ul>
-            <li><a href="#">Информация</a></li>
+            <li><a href="#">ИНФОРМАЦИЯ</a></li>
             <li><a href="#">Новости</a></li>
             <li><a href="#">Прайс-лист</a></li>
             <li><a href="#">Магазин</a></li>
@@ -20,7 +21,7 @@
           </ul>
         </nav>
         <div>
-          <a href="#">Вход</a>
+          <a class="login" href="#">Вход</a>
         </div>
       </div>
     </header>
@@ -28,34 +29,34 @@
       <div>
         <h1>Средства для ухода</h1>
         <div class="breadcrumbs">
-          <a href="Главная">
-          <a href="Магазин">
-          <a href="Средства для ухода">
+          <a href="Главная"></a>
+          <a href="Магазин"></a>
+          <a href="Средства для ухода"></a>
         </div>
       </div>
       <form>
-        <div>
+        <div class="menu-prodious">
           <h2>Производители</h2>
-          <label><input type="checkbox" name="baxter-of-california">Baxter of California</label>
+          <label><input type="checkbox" name="baxter-of-california" checked>Baxter of California</label>
           <label><input type="checkbox" name="mr-natty">MR Natty</label>
-          <label><input type="checkbox" name="suavecito">Suavecito</label>
+          <label><input type="checkbox" name="suavecito" checked>Suavecito</label>
           <label><input type="checkbox" name="malin-goetz">Malin+Goetz</label>
           <label><input type="checkbox" name="murrays">Murray's</label>
-          <label><input type="checkbox" name="american-crew">American Crew</label>
+          <label><input type="checkbox" name="american-crew" checked>American Crew</label>
         </div>
-        <div>
+        <div class="menu-prodious">
           <h2>Группы товаров</h2>
           <label><input type="radio" name="question-products" value="razors">Бритвенные принадлежности</label>
-          <label><input type="radio" name="question-products" value="care">Средства для ухода</label>
+          <label><input type="radio" name="question-products" value="care" checked>Средства для ухода</label>
           <label><input type="radio" name="question-products" value="accessories">Аксессуары</label>
-        </div>
-        <input type="button" name="Показать">
+        </div >
+        <input class="form-button" type="button" name="Показать" value="Показать">
       </form>
       <div>
         <div>
           <article>
             <a href="#">
-              <img scr="img/picture.jpg">
+              <img src="img/Layer38.png" width="220" height="166">
               <p>Набор для путешествий "BAXTER OF CALIFORNIA"</p>
             </a>
             <div>
@@ -69,8 +70,8 @@
           </article>
           <article>
             <a href="#">
-              <img scr="img/picture.jpg">
-              <p>Набор для путешествий "BAXTER OF CALIFORNIA"</p>
+              <img src="img/Layer 30.png" width="220" height="166">
+              <p>Увлажняющий кондиционер "BAXTER OF CALIFORNIA"</p>
             </a>
             <div>
               <span>
@@ -83,8 +84,8 @@
           </article>
           <article>
             <a href="#">
-              <img scr="img/picture.jpg">
-              <p>Набор для путешествий "BAXTER OF CALIFORNIA"</p>
+              <img src="img/Layer 39.png" width="220" height="166">
+              <p>Гель для волос "SUAVECITO"</p>
             </a>
             <div>
               <span>
@@ -97,8 +98,8 @@
           </article>
           <article>
             <a href="#">
-              <img scr="img/picture.jpg">
-              <p>Набор для путешествий "BAXTER OF CALIFORNIA"</p>
+              <img src="img/Layer 32.png" width="220" height="166">
+              <p>Глина для укладки волос "AMERICAN CREW"</p>
             </a>
             <div>
               <span>
@@ -111,8 +112,8 @@
           </article>
           <article>
             <a href="#">
-              <img scr="img/picture.jpg">
-              <p>Набор для путешествий "BAXTER OF CALIFORNIA"</p>
+              <img src="img/Layer 33.png" width="220" height="166">
+              <p>Гель для волос "AMERICAN CREW"</p>
             </a>
             <div>
               <span>
@@ -125,8 +126,8 @@
           </article>
           <article>
             <a href="#">
-              <img scr="img/picture.jpg">
-              <p>Набор для путешествий "BAXTER OF CALIFORNIA"</p>
+              <img src="img/Layer 42.png" width="220" height="166">
+              <p>Набор для бритья "BAXTER OF CALIFORNIA"</p>
             </a>
             <div>
               <span>
@@ -138,7 +139,7 @@
             </div>
           </article>
         </div>
-        <div>
+        <div class="numbers">
           <a href="#">1</a>
           <span>2</span>
           <a href="#">3</a>
@@ -148,21 +149,21 @@
     </main>
     <footer>
       <div>
-        <div>
+        <div class="info">
           <p>Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a><br>
           Телефон: +7 (812) 666-02-66</p>
         </div>
         <div>
-        <span>Давайте дружить <br> 
+        <span class="friends">Давайте дружить <br> 
           <a href="#">Вконтакте</a>
           <a href="#">Фейсбук</a>
           <a href="#">Инстаграм</a>
         </span>
         </div>
         <div>
-          <span>
+          <span html>
           Разработано <br>
           <a href="#">Html-academy</a>
           </span>
