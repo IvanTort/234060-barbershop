@@ -2,7 +2,7 @@ body{
 	font-family: "Roboto", sans-serif;
 }
 
-.header a{
+.header1 a{
 	font-size: 16px;
 	line-height: 20px;
 	text-transform: uppercase;
@@ -20,52 +20,57 @@ h1{
 	font-size: 30px;
 	line-height: 42px;
 	text-transform: uppercase;
+}
+
+.breadcrumbs a{
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
 	text-decoration: none;
 }
 
-h2{
+.span1{
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.span2{
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #aeaeae;
+}
+
+.kit{
+    font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.price{
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.buy{
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.include{
 	font-size: 24px;
 	line-height: 30px;
 	text-transform: uppercase;
-	text-decoration: none;
 }
 
-.menu-prodious label{
+.include-lines{
 	font-size: 14px;
-	line-height: 18px;
+	line-height: 24px;
 	text-transform: uppercase;
-}
-
-.form-button{
-	font-size: 13px;
-	line-height: 18px;
-	text-transform: uppercase;
-}
-
-
-article a{
-	font-size: 14px;
-	line-height: 18px;
-	text-decoration: none;
-}
-
-article span{
-	font-size: 14px;
-	line-height: 18px;
-	text-transform: uppercase;
-}
-
-article div a{
-	font-size: 14px;
-	line-height: 18px;
-	text-transform: uppercase;
-}
-
-.numbers a, span{
-	font-size: 14px;
-	line-height: 18px;
-	text-transform: uppercase;
-	text-decoration: none;
 }
 
 .info{
