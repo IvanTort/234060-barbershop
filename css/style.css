@@ -2,196 +2,153 @@ body{
 	font-family: "Roboto", sans-serif;
 }
 
-.header-index a{
-	font-size: 16px;
-	line-height: 20px;
-	text-transform: uppercase;
-	text-decoration: none;
+.header-barbershop-index a{
+	font-size: 14px; 
+    line-height: 30px;
+    text-decoration: none; 
+    text-transform: uppercase; 
 }
 
-.login-index{
-	font-size: 16px;
-	line-height: 20px;
-	text-transform: uppercase;
-	text-decoration: none;
+.login-barbershop-index{
+	font-size: 14px; 
+    line-height: 30px;
+    text-decoration: none; 
+    text-transform: uppercase; 
 }
 
-.h1-index{
-	font-size: 30px;
-	line-height: 42px;
-	text-transform: uppercase;
-	text-decoration: none;
+.h1-barbershop-index{
+	font-size: 30px; 
+    line-height: 42px;
+    text-transform: uppercase;
 }
 
-.h2-index{
-	font-size: 24px;
-	line-height: 30px;
-	text-transform: uppercase;
-	text-decoration: none;
+.breadcrumbs-barbershop-index{
+	font-size: 14px; 
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-.menu-prodious label{
-	font-size: 14px;
-	line-height: 18px;
-	text-transform: uppercase;
+.h2-barbershop-index{
+	font-size: 24px; 
+    line-height: 30px;
+    text-transform: uppercase;
 }
 
-.form-button{
-	font-size: 13px;
-	line-height: 18px;
-	text-transform: uppercase;
+form label{
+	font-size: 14px; 
+    line-height: 18px;
+    text-transform: uppercase;
 }
 
-
-article a{
-	font-size: 14px;
-	line-height: 18px;
-	text-decoration: none;
+.form-button-show-brbr-index{
+	font-size: 14px; 
+    line-height: 18px;
+    text-transform: uppercase;
 }
 
-article span{
-	font-size: 14px;
-	line-height: 18px;
-	text-transform: uppercase;
+.name-for-prod{
+	font-size: 14px; 
+    line-height: 18px;
+    text-decoration: none;
 }
 
-article div a{
-	font-size: 14px;
-	line-height: 18px;
-	text-transform: uppercase;
-}
-
-.numbers a, span{
-	font-size: 14px;
-	line-height: 18px;
-	text-transform: uppercase;
-	text-decoration: none;
-}
-
-.info{
-	font-size: 14px;
-	line-height: 24px;
-	text-transform: uppercase;
-}
-
-.friends{
-	font-size: 14px;
-	line-height: 24px;
-	text-transform: uppercase;
-}
-
-.html a{
-	font-size: 14px;
-	line-height: 24px;
-	text-transform: uppercase;
-	text-decoration: none;
-}
-
-.htmlweb{
-	text-decoration: none;
-}
-
-
-
-
-
-
-
-
-body{
-	font-family: "Roboto", sans-serif;
-}
-
-.header1 a{
-	font-size: 16px;
-	line-height: 20px;
-	text-transform: uppercase;
-	text-decoration: none;
-}
-
-.login{
-	font-size: 16px;
-	line-height: 20px;
-	text-transform: uppercase;
-	text-decoration: none;
-}
-
-h1{
-	font-size: 30px;
-	line-height: 42px;
-	text-transform: uppercase;
-}
-
-.breadcrumbs a{
-	font-size: 14px;
-	line-height: 24px;
-	text-transform: uppercase;
-	text-decoration: none;
-}
-
-.span1{
-	font-size: 14px;
-	line-height: 24px;
-	text-transform: uppercase;
-}
-
-.span2{
-	font-size: 14px;
-	line-height: 24px;
-	text-transform: uppercase;
-	color: #aeaeae;
-}
-
-.kit{
-    font-size: 14px;
-	line-height: 24px;
+.name-for-products{
 	text-transform: uppercase;
 }
 
 .price{
-	font-size: 14px;
-	line-height: 24px;
-	text-transform: uppercase;
+	font-size: 14px; 
+    line-height: 18px;
+    text-transform: uppercase;
 }
 
-.buy{
-	font-size: 14px;
-	line-height: 24px;
-	text-transform: uppercase;
+.button-buy-brbr-index{
+	font-size: 14px; 
+    line-height: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.numbers-brbr-index a{
+	font-size: 14px; 
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.click-brbr-index{
+	font-size: 14px; 
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.info-brbr-index{
+	font-size: 14px; 
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.friends-brbr-index {
+	font-size: 14px; 
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.htmlweb-brbr{
 	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header-brbr-catalog a{
+	font-size: 14px; 
+    line-height: 30px;
+    text-decoration: none; 
+    text-transform: uppercase; 
+}
+
+.login-brbr-catalog{
+	font-size: 14px; 
+    line-height: 30px;
+    text-decoration: none; 
+    text-transform: uppercase; 
+}
+
+.h1-brbr-catalog{
+	font-size: 30px; 
+    line-height: 42px; 
+    text-transform: uppercase; 
+}
+
+.breadcrumbs-brbr-catalog a{
+	font-size: 14px; 
+    line-height: 24px;
+    text-decoration: none; 
+    text-transform: uppercase; 
+}
+
+.content-brbr-catalog{
+	font-size: 14px; 
+    line-height: 24px; 
+    text-transform: uppercase; 
+}
+
+.grey-words{
+	color: #aeaeae;
 }
 
 .include{
-	font-size: 24px;
-	line-height: 30px;
-	text-transform: uppercase;
+	font-size: 24px; 
+    line-height: 30px; 
+    text-transform: uppercase;
 }
 
-.include-lines{
-	font-size: 14px;
-	line-height: 24px;
-	text-transform: uppercase;
-}
-
-.info{
-	font-size: 14px;
-	line-height: 24px;
-	text-transform: uppercase;
-}
-
-.friends{
-	font-size: 14px;
-	line-height: 24px;
-	text-transform: uppercase;
-}
-
-.html a{
-	font-size: 14px;
-	line-height: 24px;
-	text-transform: uppercase;
-	text-decoration: none;
-}
-
-.htmlweb{
-	text-decoration: none;
-}
